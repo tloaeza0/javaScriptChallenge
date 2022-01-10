@@ -51,17 +51,22 @@ let operatorInput = prompt(" enter a operator: ");
 let num2 = Number(prompt(" enter another number: "));
  
 if (operatorInput === "+"){
-    console.log (num1 + num2);
+   console.log (`${num1} plus ${num2} equals ${num1 + num2}`);
+
 }
 else if (operatorInput === "-"){
-   console.log(num1 - num2);
-}
+   console.log(`${num1} minus ${num2} equals ${num1 - num2}`);
+
+ }
 else if (operatorInput === "*"){
-   console.log(num1 * num2);
+   console.log(`${num1} times ${num2} equals ${num1 * num2}`);
+  
 }
 else if (operatorInput === "/"){
-console.log(num1 / num2);
+   console.log(`${num1} divided by ${num2} equals ${num1 / num2}`);
+
 }
 else {
    console.log("input the values asked");
 }
+
